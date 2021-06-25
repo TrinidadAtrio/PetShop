@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/* ------- CONFIGURACIÓN GENERAL ------ */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+}
+
+/* ---------- ESTILOS HEADER ---------- */
+
+/*Configuración primer header*/
+.header1{
+    background-color: #222222;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header1-menu{
+    display: flex;
+}
+.header1-menu li{
+    padding: 10px;
+}
+/*configuración segundo header*/
+.header2{
+    background-color: #F0A83E;
+    color: #3C2313;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23.44px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.White{
+    color:white;
+    font-weight: bold;
+}
+.header2-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    color:white;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+/*configuración banner*/
+}
+.banner{
+    background: mistyrose url(../img/imagen_heroe.png) no-repeat center;
+    background-size: cover;
+    height: 409px;
+}
+.banner-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 165px;
+    right: 16px;
+}
+.placer{
+    background-color: white;
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+.descuento{
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+.comedores{
+    background-color: #F0A83E;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    width: 141px;
+    height: 49px;
+    left: 767px;
+    top: 334px;
+    text-align: center;
+    padding: 23px;
+}
+
+/* ------ Configuración sección productos destacados ------ */
+.producto-destacado{
+    text-align: center;
+}
+.producto-destacado img{
+    padding-top: 24.44px;
+}
+.productos{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 49px;
+}
+.churrasquito, .comedero, .huesito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* ----- Estilos primer footer -----*/
+.footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 68px;
+}
+.Contáctenos{
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    padding-bottom: 20px;
+}
+.datos{
+    background: #3C2313;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    width: 340px;
+    height: 40px;
+    left: calc(50% - 340px/2 + 1px);
+    top: calc(50% - 40px/2 + 275.5px);
+    text-align: left;}
+.resetear{
+    background: #8A8787;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    width: 110px;
+    height: 34px;
+    left: calc(50% - 110px/2 - 52px);
+    top: calc(50% - 34px/2 + 453.5px);
+
+}
+.enviar{
+    background: #F0A83E;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    width: 110px;
+    height: 34px;
+    left: calc(50% - 110px/2 - 52px);
+    top: calc(50% - 34px/2 + 453.5px);
+}
+.footer1-botones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* ------ Estilos segundo footer ------ */
+.footer2{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    left: calc(50% - 1024px/2);
+    top: calc(50% - 60px/2 + 575.5px);
+    height: 60px;
+}
+.footer2-derecha{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer2-izquierda{
+    color: #A0A0A0;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 10.55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer2-izquierda-botón1{
+    background-color: #fff;
+    border-radius: 15px;
+}
+.footer2-izquierda-botón2{
+    background-color: #3C2313;
+    border-radius: 15px;
+}
+.footer3{
+    background: #3C2313;
+    color: #FFF;
+}
+.footer3-tittle{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+}
+.footer3-description{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11.72px;
+}
+/* ------ Estilos cuarto footer -----*/
+.footer4{
+    background-color: #222222;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 12px; 
+}
